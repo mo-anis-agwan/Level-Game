@@ -15,6 +15,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             HeaderView()
+                .frame(maxWidth: .infinity)
             
             ScrollView(.vertical, showsIndicators: true, content: {
                 VStack {
